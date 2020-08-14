@@ -1,0 +1,204 @@
+@media (max-width:1199px){
+    /*lg*/
+    header .banner-content {
+        margin-top: 130px;
+    }
+    .banner-content h1 {
+        font-size: 36px;
+    }
+    .banner-content p {
+        font-size: 17px;
+    }
+    .form-inline div input, .form-inline button{
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+    .tag p {
+        font-size: 18px;
+        line-height: 1.8;
+    }
+}
+
+
+@media (max-width: 991px){
+    /*md*/
+    header .navbar {
+        padding: 20px !important;
+    }
+    .navbar-brand img {
+        max-width: 150px;
+    }
+    .banner-content h1 {
+        font-size: 30px;
+    }
+    header .banner-content {
+        margin-top: 90px;
+        max-width: 377px;
+    }
+    .banner-content p {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .banner-content h5 {
+        font-size: 18px;
+    }
+    .form-inline div input, .form-inline button {
+        font-weight: 500;
+    }
+    .form-inline div {
+        margin-right: 10px;
+    }
+    footer .signup-section {
+        text-align: center;
+    }
+    .signup-section p {
+        font-size: 16px;
+        max-width: 400px;
+        margin: 0 auto 10px;
+    }
+    .signup-section h2 {
+        font-size: 35px;
+    }
+    footer .form-inline {
+        justify-content: center;
+    }
+    .social li a {
+        margin-left: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    footer .row img {
+        max-width: 150px;
+    }
+    footer .col-md-2 {
+        padding: 0;
+    }
+    .tag p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+    .foot li a {
+        font-size: 16px;
+    }
+    .service-section img {
+        max-width: 400px;
+    }
+    .service-section {
+        position: relative;
+        padding: 75px 0;
+    }
+}
+
+
+
+@media (max-width: 767px){
+    /*sm*/
+    header .banner-content {
+        max-width: 300px;
+    }
+    .banner-content h1 {
+        font-size: 25px;
+    }
+    .banner-content p {
+        display: none;
+    }
+    .banner-content h5 {
+        font-size: 15px;
+    }
+    .form-inline div input, .form-inline button {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+    .service-section .row .service-box {
+        padding: 25px;
+    }
+    .service-section .row > div h2 {
+        font-size: 22px;
+    }
+    .service-section .row > div p {
+        font-size: 14px;
+    }
+    service-section .row > div a {
+        font-size: 14px;
+    }
+    .service-section img {
+        max-width: 320px;
+    }
+    .signup-section h2 {
+        font-size: 30px;
+    }
+    footer .row img {
+        max-width: 140px;
+    }
+    .social {
+        margin-top: 0;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .copyright {
+        font-size: 15px !important;
+        text-align: center;
+    }
+}
+@media (max-width: 575px){
+    /*xs*/
+    header .banner-content {
+        margin-top: 90px;
+        max-width: 310px !important;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .bannar-img {
+        opacity: 0.5;
+    }
+    .banner-content h1 {
+        font-size: 25px;
+    }
+    .banner-content h5 {
+        font-size: 14px;
+    }
+    .form-inline div input, .form-inline button {
+        padding: 8px 8px;
+        font-size: 12px;
+    }
+    .service-section img {
+        max-width: 250px;
+        position: static;
+        display: block;
+        margin: auto;
+        transform: translateY(0);
+        margin-bottom: 20px;
+    }
+    .service-section {
+        padding: 50px 20px;
+    }
+    footer {
+        padding: 0 20px;
+    }
+    footer .container {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    .tag p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-top: 15px;
+    }
+    .foot li a {
+        font-size: 15px;
+        padding: 2px 0px;
+    }
+    footer .row img {
+        max-width: 120px;
+    }
+    .signup-section h2 {
+        font-size: 22px;
+    }
+    .signup-section p {
+        font-size: 14px;
+        max-width: 300px;
+    }
+} 
